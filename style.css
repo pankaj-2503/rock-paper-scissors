@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color:#483C32;
+}
+
+.container{
+    background-color: turquoise;
+    margin: 89px 120px;
+    display: grid;
+    justify-content: center;
+    border-radius: 15px;
+    width: 80%;
+    height: 20vh;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.4);
+
+}
+.main{
+    padding:20px;
+    font-size: 20px;
+    background-color: crimson;
+    align-items: center;
+    margin: 24px 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    width: 50%;
+    height: 35vh;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.4);
+}
+#rock{
+    padding: 10px;
+    color:black;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+#paper{
+    padding: 10px;
+    color:black;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+#scissor{
+    padding: 10px;
+    color:black;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    
+}
+#rock:hover{
+    transition: 0.2s ease-in-out;
+    background-color: darkmagenta;
+    color:white;
+}
+#paper:hover{
+    transition: 0.2s ease-in-out;
+    background-color: darkmagenta;
+    color:white;
+}
+#scissor:hover{
+    transition: 0.2s ease-in-out;
+    background-color: darkmagenta;
+    color:white;
+}
+footer{
+    margin:30px 60px;
+    padding: 20px;
+    font-size: 21px;
+    color:#BCB88A;
+    text-align: end;
+}
+@media (max-width:786px){
+    .main {
+        padding: 20px;
+        font-size: 20px;
+        background-color: crimson;
+        margin-top: 20px;
+        align-items: center;
+        margin: 30px 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 20px;
+        width: 60%;
+        box-shadow: 3px 5px 5px rgba(1,1,1,0.4);
+    }
+    .footer{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-radius: 20px;
+        width: revert;
+        height: 30vh;
+        margin: 50px auto;
+        text-align: center; 
+        box-shadow: 3px 5px 5px rgba(1,1,1,0.4);
+    }
+    #rock{
+        padding: 10px;
+    color: black;
+    font-weight: 200;
+    margin-top: 13px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: goldenrod;
+    
+    }
+    #paper{
+        padding: 10px;
+        color: black;
+        font-weight: 200;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: goldenrod;
+    }
+    #scissor{
+        padding: 10px;
+        color: black;
+        font-weight: 200;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 20px;
+        background-color: goldenrod;
+    }
+    #rock:hover{
+        transition: 0.2s ease-in-out;
+        background-color: darkmagenta;
+        color:white;
+    }
+    #paper:hover{
+        transition: 0.2s ease-in-out;
+        background-color: darkmagenta;
+        color:white;
+    }
+    #scissor:hover{
+        transition: 0.2s ease-in-out;
+        background-color: darkmagenta;
+        color:white;
+    }
+}
+
